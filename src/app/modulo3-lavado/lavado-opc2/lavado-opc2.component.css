@@ -87,7 +87,7 @@
   
   .u-section-1 .u-btn-10 {
     border-style: solid;
-    text-transform: uppercase;
+
     font-size: 0.625rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -188,7 +188,7 @@
   .u-section-1 .u-btn-11 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: 28px 16px 0 auto;
     padding: 14px 18px 15px 17px;
@@ -197,7 +197,7 @@
   .u-section-1 .u-btn-12 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: -55px auto 0 11px;
     padding: 14px 17px 15px;
@@ -235,7 +235,7 @@
   .u-section-1 .u-btn-13 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: 28px 16px 0 auto;
     padding: 14px 18px 15px 17px;
@@ -244,7 +244,7 @@
   .u-section-1 .u-btn-14 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: -54px auto 0 11px;
     padding: 14px 17px 15px;
@@ -282,7 +282,7 @@
   .u-section-1 .u-btn-15 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+    
     background-image: none;
     margin: 28px 15px 0 auto;
     padding: 14px 18px 15px 17px;
@@ -291,7 +291,7 @@
   .u-section-1 .u-btn-16 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: -55px auto 0 11px;
     padding: 14px 17px 15px;
@@ -498,7 +498,7 @@
   .u-section-1 .u-btn-17 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+   
     background-image: none;
     margin: 97px auto 0 calc(((100% - 1140px) / 2) + 130px);
     padding: 7px 18px;
@@ -507,7 +507,7 @@
   .u-section-1 .u-btn-18 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: -40px calc(((100% - 1140px) / 2) + 419px) 0 calc(((100% - 1140px) / 2) + 490px);
     padding: 7px 18px;
@@ -516,7 +516,7 @@
   .u-section-1 .u-btn-19 {
     letter-spacing: 1px;
     font-weight: 700;
-    text-transform: uppercase;
+
     background-image: none;
     margin: -40px calc(((100% - 1140px) / 2)) 1px calc(((100% - 1140px) / 2) + 850px);
     padding: 7px 18px;
