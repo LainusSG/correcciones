@@ -1,0 +1,49 @@
+
+
+
+<mat-sidenav-container class="container">
+
+    <!-- side-nav -->
+
+  
+    <mat-sidenav mode="side" opened class="sidenav">
+  
+      <section class="skrollable u-align-left u-clearfix u-hidden-md u-hidden-sm u-hidden-xs u-section-1" id="sec-a6ea">   
+  
+      <!-- Elements list menu -->
+      
+      <div style="text-align: center">
+  
+       <br> <img src="../../assets/images/Logooo.png" width="130px">
+        
+        </div>
+  
+    
+      
+
+ 
+     <mat-list>
+  
+        <mat-list-item *ngFor="let item of links"> 
+         
+            <a class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-font-arial u-none u-text-custom-color-9 u-btn-4" matLine [routerLink]="item.url">{{ item.name }}</a>
+  
+        </mat-list-item>
+       
+        <a href="/login" class="u-border-2 u-border-custom-color-3 u-border-hover-palette-1-base u-btn u-btn-round u-button-style u-custom-font u-font-arial u-hover-palette-1-base u-radius-50 u-text-black u-white u-btn-13">CERRAR SESIÓN</a>
+        <h5 class="u-align-center u-text u-text-1">Powered by SMARTEST</h5>
+      </mat-list> 
+  
+   </section> </mat-sidenav>
+  
+
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  
+  
+      
+  
+  </mat-sidenav-container>
+  
+  

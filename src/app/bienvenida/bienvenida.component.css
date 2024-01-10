@@ -1,0 +1,121 @@
+.u-section-1 .u-sheet-1 {
+    min-height: 811px;
+  }
+  
+  .u-section-1 .u-icon-1 {
+    width: 64px;
+    height: 64px;
+    margin: 50px auto 0 62px;
+    padding: 13px;
+  }
+  
+  .u-section-1 .u-text-1 {
+    letter-spacing: 20px;
+    margin: -54px auto 0;
+  }
+  
+  .u-section-1 .u-text-2 {
+    letter-spacing: 20px;
+    line-height: 1.47;
+    margin: 62px auto 0 171px;
+  }
+  
+  .u-section-1 .u-icon-2 {
+    width: 146px;
+    height: 146px;
+    margin: 72px auto 0;
+    padding: 0;
+  }
+  
+  .u-section-1 .u-btn-1 {
+    background-image: none;
+    margin: 50px auto 0 206px;
+  }
+  
+  .u-section-1 .u-btn-2 {
+    background-image: none;
+    margin: -45px 206px 60px auto;
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-1 .u-btn-1 {
+      margin-left: 205px;
+    }
+  
+    .u-section-1 .u-btn-2 {
+      margin-right: 205px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-1 .u-btn-1 {
+      margin-left: 0;
+    }
+  
+    .u-section-1 .u-btn-2 {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-1 .u-text-2 {
+      margin-left: 108px;
+    }
+  }
+
+
+
+
+  .titulo{
+    text-align: center;
+    text-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+
+.buttones {
+  width: 350px;
+  height: 50px;
+ 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+  
+  .buttones:active {
+    background-color: #0e8f94;
+  }
+
+
+  
+
+
+  .dropdown {
+    display: inline-block;
+    
+  }
+  .dropdown-content {
+    display: none;
+    position:relative;
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 1px 10px 10px 1px rgba(0,0,0,0.4);
+    border-radius: 10px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position:relative;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #0e8f94
+  }
