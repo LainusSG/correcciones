@@ -57,7 +57,7 @@
           </div>
         
           <div class="u-form-group u-form-submit u-label-top">
-            <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-hover-custom-color-3 u-btn-14">Agregar</a>
+            <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-hover-custom-color-3 u-btn-14">Aplicar</a>
             <input type="submit" value="submit" class="u-form-control-hidden">
           </div>
           <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
@@ -68,19 +68,20 @@
       </div>
       <h6 class="u-text u-text-custom-color-3 u-text-9">Lista de Incidencias:</h6>
       <div class="custom-expanded u-table u-table-responsive u-table-1">
-        <table class="u-table-entity">
+        <table class="u-table-entity" style="text-align: center;" >
           <colgroup>
-            <col width="10.5%">
-            <col width="14.1%">
-            <col width="65%">
-            <col width="10.4%">
+            <col width="10%">
+            <col width="15%">
+            <col width="25%">
+            <col width="50%">
           </colgroup>
           <tbody class="u-table-alt-palette-1-light-3 u-table-body">
-            <tr style="height: 70px;">
+            <tr style="height: 70px; text-align: center;">
               <td class="u-table-cell">ID</td>
-              <td class="u-table-cell">Nombre</td>
-              <td class="u-table-cell">Descripción&nbsp;</td>
-              <td class="u-table-cell">Acción</td>
+              <td class="u-table-cell">Usuario</td>
+              <td class="u-table-cell">Categoría</td>
+              <td class="u-table-cell">Descripción</td>
+              <td class="u-table-cell"></td>
             </tr>
             <tr style="height: 52px;">
               <td class="u-table-cell">3829</td>
@@ -103,12 +104,232 @@
           </tbody>
         </table>
       </div>
-      <a href="/dashboard" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-custom-color-3 u-radius u-btn-15">GUARDAR</a>
+      <a href="#sec-64f80" class="u-active-custom-color-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-11 u-dialog-link u-hover-custom-color-6 u-radius-6 u-btn-23">Descargar</a>
+      <a href="#sec-64f81" class="u-active-custom-color-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-11 u-dialog-link u-hover-custom-color-6 u-radius-6 u-btn-24">Imprimir</a>
     </section>
     
     
     
+    <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-6" id="sec-64f80">
+      <div class="u-align-center u-container-style u-dialog u-white u-dialog-1">
+        <div class="u-container-layout u-valign-middle u-container-layout-1">
+          <div style="text-align: center;"><img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="https://cdn-0.emojis.wiki/emoji-pics/docomo/warning-docomo.png"></div>
+          <h5 class="u-text u-text-custom-color-2 u-text-1" spellcheck="true">¿Está seguro que quiere descargar el archivo? </h5>
+          <a  class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Cancelar</a>
+          <a href="/material-de-quirofano-recepcion" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2">aceptar</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style>.u-dialog-section-6 .u-dialog-1 {
+  width: 500px;
+  min-height: 300px;
+  height: auto;
+  margin: 60px auto;
+}
+
+.u-dialog-section-6 .u-container-layout-1 {
+  padding: 30px;
+}
+.u-dialog-section-6 .u-image-1 {
+  width: 75px;
+  height: 75px;
+  margin: 15px auto 0 ;
+}
+.u-dialog-section-6 .u-text-1 {
+  font-weight: 700;
+  width: 343px;
+  margin: 0 auto;
+}
+
+.u-dialog-section-6 .u-btn-1 {
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 42px auto 0 45px;
+}
+
+.u-dialog-section-6 .u-btn-2 {
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  background-image: none;
+  margin: -45px auto 0 257px;
+}
+
+.u-dialog-section-6 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-6 .u-text-1 {
+    width: 343px;
+  }
+
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: 45px;
+  }
+
+  .u-dialog-section-6 .u-btn-2 {
+    margin-top: -45px;
+    margin-left: 257px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: 155px;
+  }
+
+  .u-dialog-section-6 .u-btn-2 {
+    margin-left: 367px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-6 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: 97px;
+  }
+
+  .u-dialog-section-6 .u-btn-2 {
+    margin-left: 284px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-6 .u-dialog-1 {
+    width: 340px;
+  }
+
+  .u-dialog-section-6 .u-text-1 {
+    width: 320px;
+  }
+
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: auto;
+  }
+
+  .u-dialog-section-6 .u-btn-2 {
+    margin-left: 84px;
+  }
+}</style>
+    <!------------------------------------------------------------------------------------------dssd-----------------sd--------sd-->
     
+      <!------------------------------------------------------------------------------------------dssd-----------------sd--------sd-->
+    
+      <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-6" id="sec-64f81">
+        <div class="u-align-center u-container-style u-dialog u-white u-dialog-1">
+          <div class="u-container-layout u-valign-middle u-container-layout-1">
+            <div style="text-align: center;"><img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="https://cdn-0.emojis.wiki/emoji-pics/docomo/warning-docomo.png"></div>
+            <h5 class="u-text u-text-custom-color-2 u-text-1" spellcheck="true">¿Está seguro que quiere imprimir el archivo? </h5>
+            <a  class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Cancelar</a>
+            <a href="/material-de-quirofano-recepcion" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2">Aceptar</a>
+          </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+        </div>
+      </section><style>.u-dialog-section-6 .u-dialog-1 {
+    width: 500px;
+    min-height: 300px;
+    height: auto;
+    margin: 60px auto;
+  }
+  
+  .u-dialog-section-6 .u-container-layout-1 {
+    padding: 30px;
+  }
+  .u-dialog-section-6 .u-image-1 {
+    width: 75px;
+    height: 75px;
+    margin: 15px auto 0 ;
+  }
+  .u-dialog-section-6 .u-text-1 {
+    font-weight: 700;
+    width: 343px;
+    margin: 0 auto;
+  }
+  
+  .u-dialog-section-6 .u-btn-1 {
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    background-image: none;
+    margin: 42px auto 0 45px;
+  }
+  
+  .u-dialog-section-6 .u-btn-2 {
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    background-image: none;
+    margin: -45px auto 0 257px;
+  }
+  
+  .u-dialog-section-6 .u-icon-1 {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 1199px) {
+    .u-dialog-section-6 .u-text-1 {
+      width: 343px;
+    }
+  
+    .u-dialog-section-6 .u-btn-1 {
+      margin-left: 45px;
+    }
+  
+    .u-dialog-section-6 .u-btn-2 {
+      margin-top: -45px;
+      margin-left: 257px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-dialog-section-6 .u-btn-1 {
+      margin-left: 155px;
+    }
+  
+    .u-dialog-section-6 .u-btn-2 {
+      margin-left: 367px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-dialog-section-6 .u-container-layout-1 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .u-dialog-section-6 .u-btn-1 {
+      margin-left: 97px;
+    }
+  
+    .u-dialog-section-6 .u-btn-2 {
+      margin-left: 284px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-dialog-section-6 .u-dialog-1 {
+      width: 340px;
+    }
+  
+    .u-dialog-section-6 .u-text-1 {
+      width: 320px;
+    }
+  
+    .u-dialog-section-6 .u-btn-1 {
+      margin-left: auto;
+    }
+  
+    .u-dialog-section-6 .u-btn-2 {
+      margin-left: 84px;
+    }
+  }</style>
     
     
 </body>

@@ -105,7 +105,6 @@ const routes: Routes = [
   path: '',
   component: HomeComponent,
   children: [
-    { path: 'incidencias', component:IncidenciasComponent},
     { path: 'material-de-quirofano-recepcion', component:MaterialDeQuirofanoComponent},
     { path: 'otras-unidades-hospitalarias', component:OtrasUnidadesHospitalariasComponent},
     { path: 'provedor-externo', component:ProvedorExternoComponent},
@@ -184,6 +183,7 @@ const routes: Routes = [
     { path: 'datos-esterilizador', component:DatosEsterilizadorComponent},
     { path: 'datos-lavadoras', component:DatosLavadorasComponent},
     { path: 'permisos-de-usuarios', component:PermisosUsuariosComponent},
+    { path: 'incidencias', component:IncidenciasComponent},
             ]
 },
 
