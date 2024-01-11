@@ -14,7 +14,7 @@ export class AppComponent implements OnInit{
   dataobj : any = {};
 
  
-  constructor(public apiService: ApiService, nicepage:CargarScriptsService, jquery:CargarScriptsService, timer:CargarScriptsService ){
+  constructor(public apiService: ApiService, nicepage:CargarScriptsService, jquery:CargarScriptsService ){
     jquery.carga(['jquery']) , nicepage.carga(['nicepage']);}
 
     ngOnInit(): void {

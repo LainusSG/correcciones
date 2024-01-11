@@ -131,7 +131,7 @@
   .u-section-1 .u-icon-1 {
     width: 64px;
     height: 64px;
-    margin: -800px auto 0 calc(((100% - 1024px) / 2) + 60px);
+    margin: -804px auto 0 calc(((100% - 1024px) / 2) + 60px);
     padding: 13px;
   }
   
@@ -151,7 +151,7 @@
   .u-section-1 .u-line-1 {
     width: 611px;
     transform-origin: left center;
-    margin: 11px calc(((100% - 1140px) / 2) + 202px) 0 auto;
+    margin: 8px calc(((100% - 1024px) / 2) + 201px) 0 auto;
   }
   
   .u-section-1 .u-text-3 {
