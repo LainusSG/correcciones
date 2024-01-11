@@ -87,7 +87,7 @@
   
   .u-section-1 .u-btn-10 {
     border-style: solid;
-    text-transform: uppercase;
+
     font-size: 0.625rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -171,104 +171,104 @@
   .u-section-1 .u-icon-3 {
     width: 42px;
     height: 42px;
-    margin: -313px auto 0 calc(((100% - 1140px) / 2) + 293px);
+    margin: -313px auto 0 calc(((100% - 1140px) / 2) + 235px);/*quirofano*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-4 {
     width: 42px;
     height: 42px;
-    margin: -42px auto 0 calc(((100% - 1140px) / 2) + 419px);
+    margin: -42px auto 0 calc(((100% - 1140px) / 2) + 357px);/*recepcion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-5 {
     width: 42px;
     height: 42px;
-    margin: -42px auto 0 calc(((100% - 1140px) / 2) + 528px);
+    margin: -42px auto 0 calc(((100% - 1140px) / 2) + 464px);/*lavado*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-6 {
     width: 42px;
     height: 42px;
-    margin: -42px calc(((100% - 1140px) / 2) + 452px) 0 auto;
+    margin: -42px calc(((100% - 1140px) / 2) + 452px) 0 calc(((100% - 1140px) / 2) + 587px);/*esterilizacion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-7 {
     width: 42px;
     height: 42px;
-    margin: -42px calc(((100% - 1140px) / 2) + 315px) 0 auto;
+    margin: -42px calc(((100% - 1140px) / 2) + 315px) 0 calc(((100% - 1140px) / 2) + 720px);/*almacen*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-8 {
     width: 42px;
     height: 42px;
-    margin: -42px calc(((100% - 1140px) / 2) + 195px) 0 auto;
+    margin: -42px calc(((100% - 1140px) / 2) + 195px) 0 calc(((100% - 1140px) / 2) + 840px);/*distribucion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-9 {
     width: 42px;
     height: 42px;
-    margin: -42px calc(((100% - 1140px) / 2) + 57px) 0 auto;
+    margin: -42px calc(((100% - 1140px) / 2) + 57px) 0 calc(((100% - 1140px) / 2) + 990px);/*distribucion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-10 {
     width: 42px;
     height: 42px;
-    margin: 87px auto 0 calc(((100% - 1140px) / 2) + 293px);
+    margin: 87px auto 0 calc(((100% - 1140px) / 2) + 235px);/*quirofano*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-11 {
     width: 42px;
     height: 42px;
-    margin: 22px auto 0 calc(((100% - 1140px) / 2) + 419px);
+    margin: 22px auto 0 calc(((100% - 1140px) / 2) + 357px);/*recepcion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-12 {
     width: 42px;
     height: 42px;
-    margin: 20px auto 0 calc(((100% - 1140px) / 2) + 528px);
+    margin: 20px auto 0 calc(((100% - 1140px) / 2) + 720px);/*almacen*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-13 {
     width: 42px;
     height: 42px;
-    margin: -230px auto 0 calc(((100% - 1140px) / 2) + 419px);
+    margin: -230px auto 0 calc(((100% - 1140px) / 2) + 720px);/*almacen*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-14 {
     width: 42px;
     height: 42px;
-    margin: -45px calc(((100% - 1140px) / 2) + 452px) 0 auto;
+    margin: -45px calc(((100% - 1140px) / 2) + 452px) 0 calc(((100% - 1140px) / 2) + 587px);/*esterilizacion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-15 {
     width: 42px;
     height: 42px;
-    margin: 84px calc(((100% - 1140px) / 2) + 315px) 0 auto;
+    margin: 84px calc(((100% - 1140px) / 2) + 315px) 0 calc(((100% - 1140px) / 2) + 840px);/*distribucion*/
     padding: 0;
   }
   
   .u-section-1 .u-icon-16 {
     width: 42px;
     height: 42px;
-    margin: 23px calc(((100% - 1140px) / 2) + 57px) 0 auto;
+    margin: 23px calc(((100% - 1140px) / 2) + 57px) 0 calc(((100% - 1140px) / 2) + 990px);/*distribucion*/
     padding: 0;
   }
   
   .u-section-1 .u-btn-11 {
     font-weight: 700;
-    text-transform: uppercase;
+   
     letter-spacing: 1px;
     background-image: none;
     margin: 103px auto 60px calc(((100% - 1140px) / 2) + 450px);

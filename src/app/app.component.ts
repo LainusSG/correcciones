@@ -19,6 +19,7 @@ export class AppComponent implements OnInit{
 
     ngOnInit(): void {
       this.llenarData();
+      this.llenarData2();
     }
   
     llenarData(){
@@ -26,6 +27,12 @@ export class AppComponent implements OnInit{
         this.datarray = datarray;
         console.log(this.datarray);
       })
-  
+    }
+
+    llenarData2(){
+      this.apiService.getData().subscribe(dataobj =>{
+        this.dataobj = dataobj;
+        console.log(this.dataobj);
+      })
     }
   }

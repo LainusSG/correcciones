@@ -87,7 +87,7 @@
   
   .u-section-1 .u-btn-10 {
     border-style: solid;
-    text-transform: uppercase;
+
     font-size: 0.625rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -211,7 +211,7 @@
   
   .u-section-1 .u-btn-13 {
     font-weight: 700;
-    text-transform: uppercase;
+
     letter-spacing: 1px;
     background-image: none;
     margin: 12px auto 0 calc(((100% - 1140px) / 2)  + 140px);
@@ -219,7 +219,7 @@
   
   .u-section-1 .u-btn-14 {
     font-weight: 700;
-    text-transform: uppercase;
+
     letter-spacing: 1px;
     background-image: none;
     margin: -45px calc(((100% - 1140px) / 2)  + 479px) 0 calc(((100% - 1140px) / 2)  + 430px);
@@ -227,7 +227,7 @@
   
   .u-section-1 .u-btn-15 {
     font-weight: 700;
-    text-transform: uppercase;
+
     letter-spacing: 1px;
     background-image: none;
     margin: -46px calc(((100% - 1140px) / 2)  + 200px) 0 calc(((100% - 1140px) / 2)  + 750px);
