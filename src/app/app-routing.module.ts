@@ -67,7 +67,6 @@ import { AltaDeInstrumentalHComponent } from './modulo8-administracion/alta-de-i
 import { ControlUsuariosComponent } from './modulo8-administracion/control-usuarios/control-usuarios.component';
 import { DatosEsterilizadorComponent } from './modulo8-administracion/datos-esterilizador/datos-esterilizador.component';
 import { DatosLavadorasComponent } from './modulo8-administracion/datos-lavadoras/datos-lavadoras.component';
-import { InsidenciaComponent } from './modulo8-administracion/insidencia/insidencia.component';
 import { PermisosUsuariosComponent } from './modulo8-administracion/permisos-usuarios/permisos-usuarios.component';
 import { Home2Component } from './home-2/home-2.component';
 
@@ -106,7 +105,7 @@ const routes: Routes = [
   path: '',
   component: HomeComponent,
   children: [
-    { path: 'recepcion-incidencias', component:IncidenciasComponent},
+    { path: 'incidencias', component:IncidenciasComponent},
     { path: 'material-de-quirofano-recepcion', component:MaterialDeQuirofanoComponent},
     { path: 'otras-unidades-hospitalarias', component:OtrasUnidadesHospitalariasComponent},
     { path: 'provedor-externo', component:ProvedorExternoComponent},
@@ -184,7 +183,6 @@ const routes: Routes = [
     { path: 'cotrol-de-usuarios', component:ControlUsuariosComponent},
     { path: 'datos-esterilizador', component:DatosEsterilizadorComponent},
     { path: 'datos-lavadoras', component:DatosLavadorasComponent},
-    { path: 'incidencias-administrador', component:InsidenciaComponent},
     { path: 'permisos-de-usuarios', component:PermisosUsuariosComponent},
             ]
 },
