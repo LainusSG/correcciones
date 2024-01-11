@@ -146,7 +146,7 @@
   
   .u-section-1 .u-btn-10 {
     border-style: solid;
-
+    text-transform: uppercase;
     font-size: 0.625rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -296,7 +296,7 @@
   
   .u-section-1 .u-btn-11 {
     font-weight: 700;
-
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: 47px auto 0 calc(((100% - 1140px) / 2) + 320px);
@@ -305,6 +305,7 @@
   
   .u-section-1 .u-btn-12 {
     font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: -46px 15px 0 calc(((100% - 1140px) / 2) + 600px);
@@ -313,6 +314,7 @@
   
   .u-section-1 .u-btn-13 {
     font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: 19px auto 0 calc(((100% - 1140px) / 2) + 320px);
@@ -321,7 +323,7 @@
   
   .u-section-1 .u-btn-14 {
     font-weight: 700;
-    width: 200px;
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: -46px 15px 0 calc(((100% - 1140px) / 2) + 600px);
@@ -342,7 +344,7 @@
   
   .u-section-1 .u-btn-15 {
     font-weight: 700;
-
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: 46px auto 0 calc(((100% - 1140px) / 2) + 350px);
@@ -351,7 +353,7 @@
   
   .u-section-1 .u-btn-16 {
     font-weight: 700;
-   
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: -45px 2px 0 calc(((100% - 1140px) / 2) + 600px);
@@ -360,6 +362,7 @@
   
   .u-section-1 .u-btn-17 {
     font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 1px;
     background-image: none;
     margin: 20px auto 0 calc(((100% - 1140px) / 2) + 350px);
