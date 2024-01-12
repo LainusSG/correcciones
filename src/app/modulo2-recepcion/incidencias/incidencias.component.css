@@ -245,7 +245,24 @@
     font-weight: 700;
     margin: -38px 325px 0 calc(((100% - 1140px) / 2) + 810px);
   }
+  .u-section-1 .u-btn-23 {
+    --radius: 6px;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    background-image: none;
+    align-self: center;
+    margin: 22px auto 0 calc(((100% - 1140px) / 2) + 700px);
+    padding: 8px 33px;
+  }
   
+  .u-section-1 .u-btn-24 {
+    --radius: 6px;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    background-image: none;
+    margin: -40px auto 60px calc(((100% - 1140px) / 2) + 880px);
+    padding: 8px 33px;
+  }
   .u-section-1 .u-icon-4 {
     width: 31px;
     height: 31px;
