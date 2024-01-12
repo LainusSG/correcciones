@@ -256,6 +256,12 @@
     padding: 0;
   }
   
+  .u-section-1 .u-form-20 {
+    height: 339px;
+    margin: 19px 20px 0 calc(((100% - 940px) / 2) + 845px);
+  }
+
+
   @media (max-width: 1199px) {
     .u-section-1 .u-group-1 {
       width: calc(((100% - 940px) / 2) + 80px);

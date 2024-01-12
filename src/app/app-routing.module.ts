@@ -177,8 +177,8 @@ const routes: Routes = [
   component: HomeAdminComponent,
   children: [
     { path: 'dashboard', component:AdminDashboardComponent},
-    { path: 'alta-de-instrumental', component:AltaDeInstrumentalComponent},
-    { path: 'alta-de-instrumental-h', component:AltaDeInstrumentalHComponent},
+    { path: 'alta-de-instrumental-h', component:AltaDeInstrumentalComponent},
+    { path: 'alta-de-instrumental', component:AltaDeInstrumentalHComponent},
     { path: 'cotrol-de-usuarios', component:ControlUsuariosComponent},
     { path: 'datos-esterilizador', component:DatosEsterilizadorComponent},
     { path: 'datos-lavadoras', component:DatosLavadorasComponent},

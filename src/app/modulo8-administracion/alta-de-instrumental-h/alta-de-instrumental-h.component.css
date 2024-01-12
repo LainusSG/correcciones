@@ -12,7 +12,9 @@
     margin: 64px auto 0 calc(((100% - 1024px) / 2) + 60px);
     padding: 13px;
   }
-  
+  .u-section-1 .u-form-group-11 {
+    margin-left: 0;
+  }
   .u-section-1 .u-text-2 {
     font-size: 2.25rem;
     font-weight: 700;
@@ -116,9 +118,9 @@
     padding: 0;
   }
   
-  .u-section-1 .u-form-2 {
+  .u-section-1 .u-form-20 {
     height: 339px;
-    margin: 19px 20px 0 6px;
+    margin: 19px 20px 0 75px;
   }
   
   .u-section-1 .u-form-group-3 {
