@@ -248,6 +248,19 @@
   letter-spacing: 1px;
   background-image: none;
   margin: 23px auto 0;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.u-section-1 .u-btn-14-2 {
+  font-weight: 700;
+  
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 23px auto 0;
+  margin-left: 80px;
+  position: absolute;
+  background-color: #4c4a4a;
 }
 
 .u-section-1 .u-group-3 {
@@ -315,10 +328,23 @@
 
 .u-section-1 .u-btn-17 {
   font-weight: 700;
-
+  position: absolute;
   letter-spacing: 1px;
   background-image: none;
   margin: 23px auto 0;
+  margin-left: 80px;
+}
+
+
+.u-section-1 .u-btn-17-2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 23px auto 0 0;
+  margin-left: 80px;
+  background-color: #4c4a4a;
+  position: absolute;
+
 }
 
 .u-section-1 .u-group-4 {
@@ -386,10 +412,21 @@
 
 .u-section-1 .u-btn-20 {
   font-weight: 700;
-
   letter-spacing: 1px;
   background-image: none;
   margin: 23px auto 0;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.u-section-1 .u-btn-20-2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 23px auto 0;
+  margin-left: 80px;
+  position: absolute;
+  background-color: #4c4a4a;
 }
 
 @media (max-width: 1199px) {

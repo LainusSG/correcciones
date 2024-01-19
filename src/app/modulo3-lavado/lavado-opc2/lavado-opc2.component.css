@@ -158,7 +158,7 @@
   
   .u-section-1 .u-group-2 {
     width: 250px;
-    height: 250px;
+    height: 300px;
     --radius: 15px;
     background-image: none;
     margin: 29px 0 0 calc(((100% - 1140px) / 2) + 90px);
@@ -205,10 +205,10 @@
   
   .u-section-1 .u-group-3 {
     width: 250px;
-    height: 250px;
+    height: 300px;
     --radius: 15px;
     background-image: none;
-    margin: -250px 0 0 calc(((100% - 1140px) / 2) + 450px);
+    margin: -300px 0 0 calc(((100% - 1140px) / 2) + 450px);
   }
   
   .u-section-1 .u-container-layout-3 {
@@ -252,10 +252,10 @@
   
   .u-section-1 .u-group-4 {
     width: 250px;
-    height: 250px;
+    height: 300px;
     --radius: 15px;
     background-image: none;
-    margin: -250px 0 0 calc(((100% - 1140px) / 2) + 810px);
+    margin: -300px 0 0 calc(((100% - 1140px) / 2) + 810px);
   }
   
   .u-section-1 .u-container-layout-4 {

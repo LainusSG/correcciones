@@ -59,7 +59,7 @@ function divLogin3(){
     clic3 = 1;
 }
 
-
+//------------------------------------------------------------------------------LAVADORA 1
 
 var valorS = 1;
 function BotonSig(){ 
@@ -69,12 +69,60 @@ function BotonSig(){
 }
 
 
-var valorS = 1;
+var valorS2 = 1;
 function BotonSig2(){ 
     document.getElementById("boton0").style.display = "block";
     document.getElementById("boton1").style.display = "none";
-    valorS = 1;
+    valorS2 = 1;
 }
+
+
+//------------------------------------------------------------------------------LAVADORA 2
+
+var valorS3 = 1;
+function BotonSig3(){ 
+    document.getElementById("boton11").style.display = "block";
+    document.getElementById("boton00").style.display = "none";
+    valorS3 = 1;
+}
+
+
+var valorS4 = 1;
+function BotonSig4(){ 
+    document.getElementById("boton00").style.display = "block";
+    document.getElementById("boton11").style.display = "none";
+    valorS4 = 1;
+}
+
+
+//------------------------------------------------------------------------------LAVADORA 1
+
+
+var valorS5 = 1;
+function BotonSig5(){ 
+    document.getElementById("boton111").style.display = "block";
+    document.getElementById("boton000").style.display = "none";
+    valorS5 = 1;
+}
+
+
+var valorS6 = 1;
+function BotonSig6(){ 
+    document.getElementById("boton000").style.display = "block";
+    document.getElementById("boton111").style.display = "none";
+    valorS6 = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
