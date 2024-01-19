@@ -465,6 +465,11 @@
     line-height: 1;
     margin: 522px auto 0;
   }
+
+  .u-section-1 .u-form-20 {
+    height: 339px;
+    margin: 19px 20px 0 calc(((100% - 1140px) / 2) + 502px)
+  }
   
   .u-section-1 .u-text-9 {
     font-weight: 500;
