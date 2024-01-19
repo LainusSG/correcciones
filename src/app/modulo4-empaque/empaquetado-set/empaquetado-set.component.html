@@ -156,9 +156,8 @@
               <h5 class="u-text u-text-custom-color-2 u-text-1" spellcheck="true">¿Desea imprimir el Código QR? </h5>
               <div style="text-align: center;"><img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="../../../assets/images/7518540.png"></div>
               <a class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Cancelar</a>
-              <input class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2" type="button" name="imprimir" value="Imprimir" onclick="window.print();"> 
-            </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
-          </div>
+              <button class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2"  id="btnImprimirDiv">Imprimir</button>
+            </div></div>
         </section><style>.u-dialog-section-6 .u-dialog-1 {
       width: 500px;
       min-height: 300px;
@@ -626,3 +625,118 @@
   
   
 </body>
+
+
+
+<section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-6" id="imprimirQR">
+  <div id="imprimible">
+    <div id="contenedor">
+      <div id="qr"> 
+        <!--aquí iran los Api en vez del nomre ira el contenido del set {{obj1.setcontenido}}-->
+        
+       <qrcode
+            [qrdata]="'jeringas desechables, cánulas, paños quirúrgicos y recipientes para desinfectantes de la piel'"
+            [allowEmptyString]="true"
+            [alt]="'A custom alt attribute'"
+            [ariaLabel]="'QR Code image with the following content...'"
+            [cssClass]="'left'"
+            [colorDark]="'#000000ff'"
+            [colorLight]="'#ffffffff'"
+            [elementType]="'svg'"
+            [errorCorrectionLevel]="'L'"
+            [margin]="2"
+            [scale]="1"
+            [title]="'A custom title attribute'"
+            [width]="97"
+        ></qrcode>   
+          
+      </div>
+      
+          
+      <div id="datoos">
+              <h1>Nombre: <br><!--aquí iran los Api en vez del nomre {{obj1.name}}-->José Lino Santos García</h1>
+              <h1>Set: <br><!--aquí iran los Api en vez del nomre {{obj1.set}}-->Set de Laparatomía</h1>
+              <h1>Fecha de Caducidad: <br><!--aquí iran los Api en vez del nomre {{obj1.fecha}}-->20-11-2023</h1>
+  
+      </div>
+  
+      <div id="titulo" >
+        <h1>Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán</h1>
+      </div>  <img src="../../assets/Smartest.png" class="fotoqr">
+    </div>
+  </div>
+  
+  
+  
+  <img src="../../assets/Smartest.png" class="fotoqr">  
+  
+  <div style=" text-align: center;" >
+    <button class="btn btn-primary"  id="btnImprimirDiv">Imprimir</button>
+  <br><br>
+    <div id="boton" onclick="divLogin()" >
+      <button class="btn btn-primary" >Escanear QR</button>
+    </div>
+    
+  </div>
+</section>
+<style>
+.contenedor2-flexbox {
+display: flex; /*Convertimos al menú en flexbox*/
+justify-content: space-between; /*Con esto le indicamos que margine todos los items que se encuentra adentro hacia la derecha e izquierda*/
+align-items: center; /*con esto alineamos de manera vertical*/
+}
+
+
+#contenedor {
+border: 2px solid black;
+margin: auto;
+height: 3.5cm;
+width: 7cm;
+display: flex;
+flex-wrap: wrap-reverse;
+justify-content: left; 
+align-items: center;
+}
+
+
+#titulo{
+margin-left: .8cm;
+margin-top: -5px;
+width:5.9cm; 
+height: .6cm;
+font-size: 5px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+text-align: center;
+}
+
+
+#qr {
+margin-left: .8cm;
+display: grid;
+width:2.90cm; 
+height: 2.7cm;
+font-size: 5px;
+font-family: 'Courier New', Courier, monospace;
+text-align: right;
+justify-content: right; 
+align-items: center;
+}
+
+
+#datoos {
+font-size: 4.5px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+display: grid;
+width:3cm; 
+height: 2.7cm;
+text-align: left;
+}
+
+.fotoqr{
+margin-left: -170px;
+margin-bottom: -130px;
+position: relative;
+width: 22px;
+height: 22px;
+}
+</style>

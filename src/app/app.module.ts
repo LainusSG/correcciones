@@ -83,13 +83,8 @@ import { InsidenciaComponent } from './modulo8-administracion/insidencia/insiden
 import { PermisosUsuariosComponent } from './modulo8-administracion/permisos-usuarios/permisos-usuarios.component';
 import { HomeAdminComponent } from './home-admin/home-admin.component';
 
-//-------------------------------------------------------------------------------------------- modulo 2 recepcion 
-//-------------------------------------------------------------------------------------------- modulo 3 lavado 
-//-------------------------------------------------------------------------------------------- modulo 4 empaque
-//-------------------------------------------------------------------------------------------- modulo 5 esterilizacion
-//-------------------------------------------------------------------------------------------- modulo 6 almacenamiento
-//-------------------------------------------------------------------------------------------- modulo 7 distribucion 
-//-------------------------------------------------------------------------------------------- modulo 8 administracion 
+//-------------------------------------------------------------------------------------------- modulo Qr
+import { QRCodeModule } from 'angularx-qrcode';
 
 
 
@@ -140,6 +135,9 @@ import { HomeAdminComponent } from './home-admin/home-admin.component';
     Bienvenida2Component,
     HomeAdminComponent,
    
+
+
+   
   ],
   imports: [
     BrowserModule,
@@ -152,6 +150,7 @@ import { HomeAdminComponent } from './home-admin/home-admin.component';
     MatListModule,
     MatIconModule,
     HttpClientModule,
+    QRCodeModule,
    
   ],
   providers: [

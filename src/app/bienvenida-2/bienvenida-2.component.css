@@ -29,12 +29,12 @@
   
   .u-section-1 .u-btn-1 {
     background-image: none;
-    margin: 50px auto 0 206px;
+    margin: 50px auto 0 calc(((100% - 1140px) / 2) + 245px);
   }
   
   .u-section-1 .u-btn-2 {
     background-image: none;
-    margin: -45px 206px 60px calc(((100% - 1140px) / 2) + 680px);
+    margin: -45px 206px 60px calc(((100% - 1140px) / 2) + 690px);
   }
   
   @media (max-width: 1199px) {

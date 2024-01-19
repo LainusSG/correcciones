@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
 
  
   constructor(public apiService: ApiService, nicepage:CargarScriptsService, jquery:CargarScriptsService, imprimir:CargarScriptsService ){
-    jquery.carga(['jquery']) , nicepage.carga(['nicepage']), imprimir.carga(['imprimir']);}
+    jquery.carga(['jquery']) , nicepage.carga(['nicepage']), imprimir.carga(['qr']);}
 
     ngOnInit(): void {
       this.llenarData();

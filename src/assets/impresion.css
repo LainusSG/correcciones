@@ -1,0 +1,51 @@
+#contenedor {
+  margin: auto;
+  height: 3.5cm;
+  width: 7cm;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: left; 
+  align-items: center;
+}
+
+
+#titulo{
+  margin-left: .8cm;
+margin-top: -5px;
+  width:5.9cm; 
+  height: .6cm;
+  font-size: 5px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  text-align: center;
+}
+
+
+#qr {
+  margin-left: .8cm;
+  display: grid;
+  width:2.90cm; 
+  height: 2.7cm;
+  font-size: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: right;
+  justify-content: right; 
+  align-items: center;
+}
+
+
+#datoos {
+  font-size: 4.5px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: grid;
+  width:3cm; 
+  height: 2.7cm;
+  text-align: left;
+}
+
+.fotoqr{
+margin-left: -170px;
+margin-bottom: -130px;
+position: relative;
+width: 22px;
+height: 22px;
+}
