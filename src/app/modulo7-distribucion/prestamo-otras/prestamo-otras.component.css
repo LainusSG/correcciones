@@ -190,7 +190,7 @@
   }
   
   .u-section-1 .u-form-group-1 {
-    margin-left: 0;
+    margin: -25px auto 0 calc(((100% - 950px) / 2) + 220px);
   }
   
   .u-section-1 .u-label-2 {
@@ -329,7 +329,9 @@
   }
   
   .u-section-1 .u-text-7 {
-    margin: -365px auto 0 calc(((100% - 1140px) / 2) + 150px);
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: -357px auto 0 calc(((100% - 950px) / 2) + 5px);
   }
   
   .u-section-1 .u-form-4 {

@@ -5,7 +5,7 @@
       <div class="u-container-layout u-container-layout-1"></div></div>
 
     <span class="u-border-2 u-border-palette-1-base u-file-icon u-icon u-icon-circle u-text-palette-1-base u-icon-1" data-href="/Programacion-De-Cirugia"><img src="../../assets/images/271220-7c290514.png" alt=""></span>
-    <h3 class="u-align-center u-text u-text-custom-color-3 u-text-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Datos De Programación</h3>
+    <h3 class="u-align-center u-text u-text-custom-color-3 u-text-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Datos de Programación</h3>
       <span class="u-icon u-text-custom-color-11 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 55 55" style=""><use xlink:href="#svg-cb6a"></use></svg><svg class="u-svg-content" viewBox="0 0 55 55" x="0px" y="0px" id="svg-cb6a" style="enable-background:new 0 0 55 55;"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752
 	c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348
 	c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98
@@ -29,8 +29,28 @@
       <p class="u-custom-font u-font-arial u-text u-text-custom-color-2 u-text-default u-text-6">Id</p>
 
      <h4 class="u-align-center u-text u-text-custom-color-3 u-text-default u-text-7">Información de programación de cirugía</h4>
-    
+
      
+         <div class="u-form-checkbox-group u-form-group u-form-input-layout-horizontal u-label-left u-form-group-24">
+           <label class="u-label">Prioridad de la Cirugía  : </label>
+           <div class="u-form-checkbox-group-wrapper">
+             <div class="u-input-row" style="border: 50px; border-radius: 60px; background-color: red;">
+               <input id="field-4b3f" type="checkbox" name="checkbox[]" value="Alta" class="u-field-input" checked="checked" data-calc="">
+               <label class="u-field-label" for="field-4b3f">Alta</label>
+             </div>
+             <div class="u-input-row" style="border: 50px; border-radius: 60px; background-color: orange">
+               <input id="field-1d91" type="checkbox" name="checkbox[]" value="Media" class="u-field-input" data-calc="">
+               <label class="u-field-label" for="field-1d91">Media</label>
+             </div>
+             <div class="u-input-row" style="border: 50px; border-radius: 60px; background-color: yellow;">
+               <input id="field-044b" type="checkbox" name="checkbox[]" value="Baja" class="u-field-input" data-calc="">
+               <label class="u-field-label" for="field-044b">Baja</label>
+             </div>
+           </div>
+         </div>
+ 
+      
+         
       <div class="data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -45,17 +65,18 @@
                     <div class="u-form-group u-label-left u-form-group-2">
                       <label for="text-89dd" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-2">Paciente: </label>
                       <input type="text" id="text-89dd" name="text" class="u-input u-input-rectangle u-text-body-color" placeholder="Hugo Rodríguez">
-                    </div>
+                    </div><span class="u-icon u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 42 42" style=""><use xlink:href="#svg-eafd"></use></svg><svg class="u-svg-content" viewBox="0 0 42 42" x="0px" y="0px" id="svg-eafd" style="enable-background:new 0 0 42 42;"><path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059
+                      C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z"></path></svg></span>
                     <div class="u-form-group u-label-left u-form-group-3">
-                      <label for="text-00d1" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-3">Edad</label>
+                      <label for="text-00d1" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-3">Edad:</label>
                       <input type="text" placeholder="35 años" id="text-00d1" name="text-4" class="u-input u-input-rectangle u-text-body-color">
                     </div>
                     <div class="u-form-group u-label-left u-form-group-4">
-                      <label for="text-b7b8" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-4">Entrada</label>
+                      <label for="text-b7b8" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-4">Fecha de Nacimiento:</label>
                       <input type="text" placeholder="7/01/1981" id="text-b7b8" name="text-5" class="u-input u-input-rectangle u-text-body-color">
                     </div>
                     <div class="u-form-group u-label-left u-form-group-5">
-                      <label for="text-f4e4" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-5">Número de habitación</label>
+                      <label for="text-f4e4" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-5">Número de habitación:</label>
                       <input type="text" placeholder="204" id="text-f4e4" name="text-3" class="u-input u-input-rectangle u-text-body-color">
                     </div>
                     <div class="u-form-group u-form-name u-label-left">
@@ -82,7 +103,10 @@
                     <input type="hidden" value="" name="recaptchaResponse">
                     <input type="hidden" name="formServices" value="64f6d1fc-9b03-2bb0-a357-4638e4250b99">
                   </form>
-                </div>
+                </div>   <span class="u-icon u-icon-30"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 42 42" style=""><use xlink:href="#svg-eafd"></use></svg><svg class="u-svg-content" viewBox="0 0 42 42" x="0px" y="0px" id="svg-eafd" style="enable-background:new 0 0 42 42;"><path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059
+                  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z"></path></svg></span>
+                  <span class="u-icon u-icon-40"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 42 42" style=""><use xlink:href="#svg-0924"></use></svg><svg class="u-svg-content" viewBox="0 0 42 42" x="0px" y="0px" id="svg-0924" style="enable-background:new 0 0 42 42;"><path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059
+                    C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z"></path></svg></span>
               </div>
             </div>
             <div class="u-container-style u-layout-cell u-size-29 u-layout-cell-2">
@@ -114,7 +138,7 @@
                       <input type="text" placeholder="Enf.Juana" id="text-f6ea" name="text-2" class="u-input u-input-rectangle">
                     </div>
                     <div class="u-form-group u-label-left u-form-group-16">
-                      <label for="text-bb11" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-16">Área de registro</label>
+                      <label for="text-bb11" class="u-custom-font u-heading-font u-label u-spacing-0 u-text-custom-color-8 u-label-16">Área de registro:</label>
                       <input type="text" placeholder="Jefatura de Quirófano" id="text-bb11" name="text-3" class="u-input u-input-rectangle">
                     </div>
                     <div class="u-form-group u-label-left u-form-group-17">
@@ -139,6 +163,7 @@
           </div>
         </div>
       </div>
+      
       <div class="u-align-center u-form u-form-3">
         <form class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form-1" style="padding: 10px;">
           <div class="u-form-group u-form-message u-label-left">
@@ -157,6 +182,7 @@
         </form>
       </div>
       <h4 class="u-align-left u-text u-text-custom-color-3 u-text-8">Ingresa la información del equipamiento para la cirugía</h4>
+      
       <div class="u-tab-links-align-justify u-tabs u-tabs-1">
         <ul class="u-border-2 u-border-grey-75 u-spacing-15 u-tab-list u-unstyled" role="tablist">
           <li class="u-tab-item" role="presentation">
@@ -237,7 +263,7 @@
           </tbody>
         </table>
       </div>
-      <a href="#sec-d4ae" class="u-active-custom-color-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-11 u-dialog-link u-hover-custom-color-6 u-radius-6 u-btn-18">Guardar</a><span class="u-dialog-link u-icon u-icon-rectangle u-text-palette-2-base u-icon-3" data-href="#sec-ca06"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style=""><use xlink:href="#svg-f745"></use></svg><svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-f745" style="enable-background:new 0 0 52 52;"><g><path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26
+      <a href="#sec-64f81" class="u-active-custom-color-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-11 u-dialog-link u-hover-custom-color-6 u-radius-6 u-btn-18">Guardar</a><span class="u-dialog-link u-icon u-icon-rectangle u-text-palette-2-base u-icon-3" data-href="#sec-ca06"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style=""><use xlink:href="#svg-f745"></use></svg><svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-f745" style="enable-background:new 0 0 52 52;"><g><path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26
 		S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z"></path><path d="M35.707,16.293c-0.391-0.391-1.023-0.391-1.414,0L26,24.586l-8.293-8.293c-0.391-0.391-1.023-0.391-1.414,0
 		s-0.391,1.023,0,1.414L24.586,26l-8.293,8.293c-0.391,0.391-0.391,1.023,0,1.414C16.488,35.902,16.744,36,17,36
 		s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293
@@ -253,7 +279,7 @@
 		s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293
 		c0.391-0.391,0.391-1.023,0-1.414L27.414,26l8.293-8.293C36.098,17.316,36.098,16.684,35.707,16.293z"></path>
 </g></svg></span>
-      <a href="#sec-d4ae" class="u-active-custom-color-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-11 u-dialog-link u-hover-custom-color-6 u-radius-6 u-btn-19">Cancelar</a>
+      <a href="#sec-64f80" class="u-active-custom-color-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-11 u-dialog-link u-hover-custom-color-6 u-radius-6 u-btn-19">Cancelar</a>
     </section>
     
     
@@ -264,230 +290,227 @@
 <!-- VENTANA DE CONFIRMACION ************************************************-->    
     
     
-  <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-5" id="sec-ca06">
-      <div class="u-align-center u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
-        <div class="u-container-layout u-container-layout-1">
-          <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="https://cdn-0.emojis.wiki/emoji-pics/docomo/warning-docomo.png" alt="" data-image-width="160" data-image-height="160">
-          <h4 class="u-align-center u-text u-text-custom-color-2 u-text-1">¿Estás seguro que deseas eliminar el equipo de cirugía?</h4>
-          <a href="#" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Confirmar</a>
-          <a href="#" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2">Cancelar</a>
-        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
-      </div>
-    </section><style>.u-dialog-section-5 .u-dialog-1 {
-  width: 500px;
-  min-height: 300px;
-  height: auto;
-  margin: 60px auto;
+  <!------------------------------------------------------------------------------------------dssd-----------------sd--------sd-->
+    
+  <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-6" id="sec-64f80">
+    <div class="u-align-center u-container-style u-dialog u-white u-dialog-1">
+      <div class="u-container-layout u-valign-middle u-container-layout-1">
+        <div style="text-align: center;"><img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="https://cdn-0.emojis.wiki/emoji-pics/docomo/warning-docomo.png"></div>
+        <h5 class="u-text u-text-custom-color-2 u-text-1" spellcheck="true">¿Está seguro que quiere cancelar la programación? </h5>
+        <a  class="u-dialog-link u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Cancelar</a>
+        <a href="/Programacion-De-Cirugia" class=" u-dialog-link u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2">Aceptar</a>
+      </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+    </div>
+  </section><style>.u-dialog-section-6 .u-dialog-1 {
+width: 500px;
+min-height: 300px;
+height: auto;
+margin: 60px auto;
 }
 
-.u-dialog-section-5 .u-container-layout-1 {
-  padding: 7px 30px;
+.u-dialog-section-6 .u-container-layout-1 {
+padding: 30px;
+}
+.u-dialog-section-6 .u-image-1 {
+width: 75px;
+height: 75px;
+margin: 15px auto 0 ;
+}
+.u-dialog-section-6 .u-text-1 {
+font-weight: 700;
+width: 343px;
+margin: 0 auto;
 }
 
-.u-dialog-section-5 .u-image-1 {
-  width: 75px;
-  height: 75px;
-  margin: 15px auto 0;
+.u-dialog-section-6 .u-btn-1 {
+font-weight: 700;
+
+letter-spacing: 1px;
+background-image: none;
+margin: 42px auto 0 45px;
 }
 
-.u-dialog-section-5 .u-text-1 {
-  font-weight: 700;
-  margin: 43px 15px 0;
+.u-dialog-section-6 .u-btn-2 {
+font-weight: 700;
+
+letter-spacing: 1px;
+background-image: none;
+margin: -45px auto 0 257px;
 }
 
-.u-dialog-section-5 .u-btn-1 {
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  border-style: none;
-  font-weight: 700;
-
-  margin: 25px 29px 0 auto;
-}
-
-.u-dialog-section-5 .u-btn-2 {
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  border-style: none;
-  font-weight: 700;
-
-  background-image: none;
-  margin: -42px auto 0 29px;
-  padding: 9px 37px 11px 36px;
-}
-
-.u-dialog-section-5 .u-icon-1 {
-  width: 20px;
-  height: 20px;
+.u-dialog-section-6 .u-icon-1 {
+width: 20px;
+height: 20px;
 }
 
 @media (max-width: 1199px) {
-  .u-dialog-section-5 .u-text-1 {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
+.u-dialog-section-6 .u-text-1 {
+  width: 343px;
+}
 
-  .u-dialog-section-5 .u-btn-2 {
-    margin-top: -42px;
-  }
+.u-dialog-section-6 .u-btn-1 {
+  margin-left: 45px;
+}
+
+.u-dialog-section-6 .u-btn-2 {
+  margin-top: -45px;
+  margin-left: 257px;
+}
+}
+
+@media (max-width: 991px) {
+.u-dialog-section-6 .u-btn-1 {
+  margin-left: 155px;
+}
+
+.u-dialog-section-6 .u-btn-2 {
+  margin-left: 367px;
+}
 }
 
 @media (max-width: 767px) {
-  .u-dialog-section-5 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+.u-dialog-section-6 .u-container-layout-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-  .u-dialog-section-5 .u-btn-1 {
-    margin-left: 263px;
-  }
+.u-dialog-section-6 .u-btn-1 {
+  margin-left: 97px;
+}
 
-  .u-dialog-section-5 .u-btn-2 {
-    margin-left: 49px;
-  }
+.u-dialog-section-6 .u-btn-2 {
+  margin-left: 284px;
+}
 }
 
 @media (max-width: 575px) {
-  .u-dialog-section-5 .u-dialog-1 {
-    width: 340px;
-  }
+.u-dialog-section-6 .u-dialog-1 {
+  width: 340px;
+}
 
-  .u-dialog-section-5 .u-text-1 {
-    margin-left: 0;
-    margin-right: 0;
-  }
+.u-dialog-section-6 .u-text-1 {
+  width: 320px;
+}
 
-  .u-dialog-section-5 .u-btn-1 {
-    margin-right: 0;
-    margin-left: 131px;
-  }
+.u-dialog-section-6 .u-btn-1 {
+  margin-left: auto;
+}
 
-  .u-dialog-section-5 .u-btn-2 {
-    margin-left: 34px;
-  }
-}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-9" id="sec-d4ae">
+.u-dialog-section-6 .u-btn-2 {
+  margin-left: 84px;
+}
+}</style>
+  <!------------------------------------------------------------------------------------------dssd-----------------sd--------sd-->
+  
+    <!------------------------------------------------------------------------------------------dssd-----------------sd--------sd-->
+  
+    <section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-6" id="sec-64f81">
       <div class="u-align-center u-container-style u-dialog u-white u-dialog-1">
-        <div class="u-container-layout u-container-layout-1">
-          <img class="u-image u-image-default u-preserve-proportions u-image-1" src="https://img.freepik.com/iconos-gratis/signo-interrogacion_318-72860.jpg?size=626&amp;ext=jpg" alt="" data-image-width="128" data-image-height="128">
-          <h4 class="u-align-center u-text u-text-custom-color-2 u-text-default u-text-1">Está asignando instrumental e insumos a una solicitud de quirófano &nbsp;<br>¿Estás seguro?
-          </h4>
-          <a href="/Programacion-De-Cirugia" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Confirmar</a>
-          <a href="/Programacion-De-Cirugia" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2">Cancelar</a>
+        <div class="u-container-layout u-valign-middle u-container-layout-1">
+          <div style="text-align: center;"><img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="https://cdn-0.emojis.wiki/emoji-pics/docomo/warning-docomo.png"></div>
+          <h5 class="u-text u-text-custom-color-2 u-text-1" spellcheck="true">¿Está seguro que quiere guardar la programación? </h5>
+          <a class="u-dialog-link u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-1">Cancelar</a>
+          <a href="/Programacion-De-Cirugia" class="u-dialog-link u-border-none u-btn u-button-style u-custom-color-3 u-hover-custom-color-6 u-btn-2">Guardar</a>
         </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
       </div>
-    </section><style>.u-dialog-section-9 .u-dialog-1 {
+    </section><style>.u-dialog-section-6 .u-dialog-1 {
   width: 500px;
-  height: auto;
   min-height: 300px;
+  height: auto;
   margin: 60px auto;
 }
 
-.u-dialog-section-9 .u-container-layout-1 {
-  padding: 7px 30px;
+.u-dialog-section-6 .u-container-layout-1 {
+  padding: 30px;
 }
-
-.u-dialog-section-9 .u-image-1 {
-  width: 79px;
-  height: 79px;
-  margin: 12px auto 0;
+.u-dialog-section-6 .u-image-1 {
+  width: 75px;
+  height: 75px;
+  margin: 15px auto 0 ;
 }
-
-.u-dialog-section-9 .u-text-1 {
+.u-dialog-section-6 .u-text-1 {
   font-weight: 700;
-  margin: 12px 0 0;
+  width: 343px;
+  margin: 0 auto;
 }
 
-.u-dialog-section-9 .u-btn-1 {
+.u-dialog-section-6 .u-btn-1 {
   font-weight: 700;
 
   letter-spacing: 1px;
   background-image: none;
-  margin: 39px auto 0 261px;
+  margin: 42px auto 0 45px;
 }
 
-.u-dialog-section-9 .u-btn-2 {
+.u-dialog-section-6 .u-btn-2 {
   font-weight: 700;
-  
+
   letter-spacing: 1px;
   background-image: none;
-  margin: -45px auto 0 12px;
-  padding: 9px 38px 11px 37px;
+  margin: -45px auto 0 257px;
 }
 
-.u-dialog-section-9 .u-icon-1 {
+.u-dialog-section-6 .u-icon-1 {
   width: 20px;
   height: 20px;
 }
 
 @media (max-width: 1199px) {
-  .u-dialog-section-9 .u-image-1 {
-    margin-top: 0;
+  .u-dialog-section-6 .u-text-1 {
+    width: 343px;
   }
 
-  .u-dialog-section-9 .u-text-1 {
-    margin-top: 52px;
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: 45px;
   }
 
-  .u-dialog-section-9 .u-btn-1 {
-    margin-top: 11px;
-    margin-left: 261px;
-  }
-
-  .u-dialog-section-9 .u-btn-2 {
+  .u-dialog-section-6 .u-btn-2 {
     margin-top: -45px;
-    margin-left: 12px;
+    margin-left: 257px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-dialog-section-9 .u-btn-1 {
-    margin-top: -184px;
-    margin-left: 1104px;
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: 155px;
   }
 
-  .u-dialog-section-9 .u-btn-2 {
-    margin-top: -1020px;
-    margin-right: 1270px;
-    margin-left: -830px;
+  .u-dialog-section-6 .u-btn-2 {
+    margin-left: 367px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-dialog-section-9 .u-container-layout-1 {
+  .u-dialog-section-6 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-dialog-section-9 .u-btn-1 {
-    margin-left: 1114px;
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: 97px;
   }
 
-  .u-dialog-section-9 .u-btn-2 {
-    margin-right: 1280px;
-    margin-left: -800px;
+  .u-dialog-section-6 .u-btn-2 {
+    margin-left: 284px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-dialog-section-9 .u-dialog-1 {
+  .u-dialog-section-6 .u-dialog-1 {
     width: 340px;
   }
 
-  .u-dialog-section-9 .u-image-1 {
-    margin-top: 29px;
+  .u-dialog-section-6 .u-text-1 {
+    width: 320px;
   }
 
-  .u-dialog-section-9 .u-text-1 {
-    margin-top: 23px;
+  .u-dialog-section-6 .u-btn-1 {
+    margin-left: auto;
   }
 
-  .u-dialog-section-9 .u-btn-1 {
-    margin-left: 994px;
-  }
-
-  .u-dialog-section-9 .u-btn-2 {
-    margin-top: -1049px;
-    margin-right: 1160px;
-    margin-left: -840px;
+  .u-dialog-section-6 .u-btn-2 {
+    margin-left: 84px;
   }
 }</style>
+
 </body>

@@ -184,7 +184,7 @@
 .u-section-1 .u-text-7 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin: -7px auto 0 calc(((100% - 950px) / 2) + 5px);
+  margin: 10px auto 0 calc(((100% - 950px) / 2) + 5px);
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -216,6 +216,18 @@
 .u-section-1 .u-form-group-2 {
   margin-left: 0;
 }
+.u-section-1 .u-form-group-24 {
+  margin: -25px auto 0 calc(((100% - 950px) / 2) + 550px);
+}
+.u-section-1 .u-shape-3 {
+  width: 58px;
+  --radius: 10px;
+  height: 28px;
+  background-image: none;
+  margin: -28px calc(((100% - 1140px) / 2)  + 21px) 0 auto;
+}
+
+
 
 .u-section-1 .u-label-2 {
   width: 136px;
@@ -471,6 +483,19 @@
   height: 38px;
   margin: -357px calc(((100% - 950px) / 2) + 32px) 0 auto;
   padding: 4px;
+}
+
+.u-section-1 .u-icon-30 {
+  width: 24px;
+  height: 24px;
+  margin: -370px 3px 354px auto;
+  padding: 0;
+}
+.u-section-1 .u-icon-40 {
+  width: 24px;
+  height: 24px;
+  margin: -370px 3px 354px calc(((100% - 1140px) / 2) + 990px);
+  padding: 0;
 }
 
 .u-section-1 .u-icon-4 {
