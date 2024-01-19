@@ -35,24 +35,49 @@ function aliminarHijos() {
 //-------------------------------------------------- ocultar y mostrar datos --------------------------------------------------
 
 var clic = 1;
-
 function divLogin(){ 
-
    if(clic==1){
-    document.getElementById("caja").style.display = "block";
-   
-
-   clic = clic + 1;
-
-   } else{
-   
     document.getElementById('caja').style.display = 'none';
 
+   clic = clic + 1;
+   } else{
+    document.getElementById("caja").style.display = "block";
     clic = 1;
-
    }   
-
 }
+
+
+var clic2 = 1;
+function divLogin2(){ 
+    document.getElementById("aparecer").style.display = "block";
+    clic2 = 1;
+}
+
+var clic3 = 1;
+function divLogin3(){ 
+    document.getElementById("aparecer2").style.display = "block";
+    clic3 = 1;
+}
+
+
+
+var valorS = 1;
+function BotonSig(){ 
+    document.getElementById("boton1").style.display = "block";
+    document.getElementById("boton0").style.display = "none";
+    valorS = 1;
+}
+
+
+var valorS = 1;
+function BotonSig2(){ 
+    document.getElementById("boton0").style.display = "block";
+    document.getElementById("boton1").style.display = "none";
+    valorS = 1;
+}
+
+
+
 
 function previewImage(event, querySelector){
 
