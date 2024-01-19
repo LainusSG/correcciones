@@ -376,7 +376,7 @@
 .u-section-1 .u-form-3 {
   height: 190px;
   width: 865px;
-  margin: -8px calc(((100% - 950px) / 2) + 63px) 0px calc(((100% - 950px) / 2) + 30px);
+  margin: -8px calc(((100% - 950px) / 2) + 63px) 0px calc(((100% - 950px) / 2) + 25px);
 }
 
 .u-section-1 .u-label-20 {
@@ -492,10 +492,12 @@
   padding: 0;
 }
 .u-section-1 .u-icon-40 {
-  width: 24px;
-  height: 24px;
-  margin: -370px 3px 354px calc(((100% - 1140px) / 2) + 990px);
-  padding: 0;
+position: absolute;
+width: 24px;
+height: 24px;
+margin-left: calc(((100% - 950px) / 2) + 920px);
+margin-top: calc(((100% - 950px) / 2) - 643px);
+padding: 0;
 }
 
 .u-section-1 .u-icon-4 {
