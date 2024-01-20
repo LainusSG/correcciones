@@ -208,7 +208,7 @@
     font-size: 0.875rem;
     line-height: 1;
     background-image: none;
-    margin: -34px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 895px);
+    margin: -30px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 895px);
     padding: 8px 9px 8px 8px;
   }
   
@@ -247,7 +247,7 @@
   .u-section-1 .u-icon-4 {
     width: 106px;
     height: 106px;
-    margin: -34px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 920px);
+    margin: -50px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 920px);
     padding: 0;
   }
   
