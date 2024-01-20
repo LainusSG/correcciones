@@ -463,7 +463,7 @@
   --thumb-hover-color: #77aad9;
   --track-color: #c0c0c0;
   --track-active-color: #478ac9;
-  margin: 165px 125px 0 849px;
+  margin: 217px 125px 0 849px;
 }
 
 .u-section-1 .u-form-group-13 {
@@ -481,8 +481,19 @@
   --thumb-hover-color: #77aad9;
   --track-color: #c0c0c0;
   --track-active-color: #478ac9;
-  margin: -127px 125px 0 849px;
+  margin: -122px 125px 0 849px;
 }
+
+.u-section-1 .u-form-4_1 {
+  height: 68px;
+  width: 120px;
+  --thumb-color: #478ac9;
+  --thumb-hover-color: #77aad9;
+  --track-color: #c0c0c0;
+  --track-active-color: #478ac9;
+  margin: -120px 125px 0 849px;
+}
+
 
 .u-section-1 .u-form-group-15 {
   --progress: 0%;
@@ -494,7 +505,7 @@
 
 .u-section-1 .u-text-12 {
   font-weight: 700;
-  margin: 154px 110px 0 150px;
+  margin: 250px 110px 0 150px;
 }
 
 .u-section-1 .u-accordion-1 {
