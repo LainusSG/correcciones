@@ -336,10 +336,10 @@
   
   .u-section-1 .u-form-4 {
     height: 190px;
-    width: 700px;
-    margin-top: 338px;
+    width: 870px;
+    margin-top: 158px;
     margin-bottom: 0;
-    margin-left: calc(((100% - 1140px) / 2) + 208px);
+    margin-left: calc(((100% - 1140px) / 2) + 145px);
   }
   
   .u-section-1 .u-label-16 {
@@ -352,6 +352,8 @@
   }
   
   .u-section-1 .u-text-8 {
+    font-size: 1.5rem;
+    font-weight: 700;
     margin: -19px calc(((100% - 1140px) / 2) + -13px) 0 calc(((100% - 1140px) / 2) + 150px);
   }
   
