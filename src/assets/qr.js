@@ -162,7 +162,6 @@ var prelavadon1= 1;
 function prelavado1_1(){ 
     document.getElementById("prelavadon1").style.display = "block";
     document.getElementById("prelavadoff1").style.display = "none";
-    document.getElementById("desaparecer1_2").style.display = "none";
     document.getElementById("aparecer1_1").style.display = "block";
    
     
@@ -175,7 +174,6 @@ var prelavadoff1 = 1;
 function prelavado1_2(){ 
     document.getElementById("prelavadoff1").style.display = "block";
     document.getElementById("prelavadon1").style.display = "none";
-    document.getElementById("desaparecer1_2").style.display = "block";
     document.getElementById("aparecer1_1").style.display = "none";
 
     prelavadoff1 = 1;
@@ -188,7 +186,6 @@ var prelavadon2= 1;
 function prelavado2_1(){ 
     document.getElementById("prelavadon2").style.display = "block";
     document.getElementById("prelavadoff2").style.display = "none";
-    document.getElementById("desaparecer1_2").style.display = "none";
     document.getElementById("aparecer1_2").style.display = "block";
     prelavadon2 = 1;
 }
@@ -198,7 +195,6 @@ var prelavadoff2 = 1;
 function prelavado2_2(){ 
     document.getElementById("prelavadoff2").style.display = "block";
     document.getElementById("prelavadon2").style.display = "none";
-    document.getElementById("desaparecer1_2").style.display = "block";
     document.getElementById("aparecer1_2").style.display = "none";
     prelavadoff2 = 1;
 }
