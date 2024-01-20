@@ -148,3 +148,210 @@ function previewImage(event, querySelector){
 	$imgPreview.src = objectURL;
                 
 }
+
+
+
+
+
+
+/////////-----------pre lavado  
+
+//-------------------------------------------------------------------------- 1 
+
+var prelavadon1= 1;
+function prelavado1_1(){ 
+    document.getElementById("prelavadon1").style.display = "block";
+    document.getElementById("prelavadoff1").style.display = "none";
+    prelavadon1 = 1;
+}
+
+
+var prelavadoff1 = 1;
+function prelavado1_2(){ 
+    document.getElementById("prelavadoff1").style.display = "block";
+    document.getElementById("prelavadon1").style.display = "none";
+    prelavadoff1 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 2 
+
+var prelavadon2= 1;
+function prelavado2_1(){ 
+    document.getElementById("prelavadon2").style.display = "block";
+    document.getElementById("prelavadoff2").style.display = "none";
+    prelavadon2 = 1;
+}
+
+
+var prelavadoff2 = 1;
+function prelavado2_2(){ 
+    document.getElementById("prelavadoff2").style.display = "block";
+    document.getElementById("prelavadon2").style.display = "none";
+    prelavadoff2 = 1;
+}
+
+
+
+//-------------------------------------------------------------------------- 3
+
+var prelavadon3= 1;
+function prelavado3_1(){ 
+    document.getElementById("prelavadon3").style.display = "block";
+    document.getElementById("prelavadoff3").style.display = "none";
+    prelavadon3 = 1;
+}
+
+
+var prelavadoff3 = 1;
+function prelavado3_2(){ 
+    document.getElementById("prelavadoff3").style.display = "block";
+    document.getElementById("prelavadon3").style.display = "none";
+    prelavadoff3 = 1;
+}
+
+//-------------------------------------------------------------------------- 4
+
+var prelavadon4= 1;
+function prelavado4_1(){ 
+    document.getElementById("prelavadon4").style.display = "block";
+    document.getElementById("prelavadoff4").style.display = "none";
+    prelavadon4 = 1;
+}
+
+
+var prelavadoff4 = 1;
+function prelavado4_2(){ 
+    document.getElementById("prelavadoff4").style.display = "block";
+    document.getElementById("prelavadon4").style.display = "none";
+    prelavadoff4 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 5
+
+var prelavadon5= 1;
+function prelavado5_1(){ 
+    document.getElementById("prelavadon5").style.display = "block";
+    document.getElementById("prelavadoff5").style.display = "none";
+    prelavadon5 = 1;
+}
+
+
+var prelavadoff5 = 1;
+function prelavado5_2(){ 
+    document.getElementById("prelavadoff5").style.display = "block";
+    document.getElementById("prelavadon5").style.display = "none";
+    prelavadoff5 = 1;
+}
+
+
+
+//-------------------------------------------------------------------------- 6
+
+var prelavadon6= 1;
+function prelavado6_1(){ 
+    document.getElementById("prelavadon6").style.display = "block";
+    document.getElementById("prelavadoff6").style.display = "none";
+    prelavadon6 = 1;
+}
+
+
+var prelavadoff6 = 1;
+function prelavado6_2(){ 
+    document.getElementById("prelavadoff6").style.display = "block";
+    document.getElementById("prelavadon6").style.display = "none";
+    prelavadoff6 = 1;
+}
+
+
+
+//-------------------------------------------------------------------------- 7
+
+var prelavadon7= 1;
+function prelavado7_1(){ 
+    document.getElementById("prelavadon7").style.display = "block";
+    document.getElementById("prelavadoff7").style.display = "none";
+    prelavadon7 = 1;
+}
+
+
+var prelavadoff7 = 1;
+function prelavado7_2(){ 
+    document.getElementById("prelavadoff7").style.display = "block";
+    document.getElementById("prelavadon7").style.display = "none";
+    prelavadoff7 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 8 
+
+var prelavadon8= 1;
+function prelavado8_1(){ 
+    document.getElementById("prelavadon8").style.display = "block";
+    document.getElementById("prelavadoff8").style.display = "none";
+    prelavadon8 = 1;
+}
+
+
+var prelavadoff8 = 1;
+function prelavado8_2(){ 
+    document.getElementById("prelavadoff8").style.display = "block";
+    document.getElementById("prelavadon8").style.display = "none";
+    prelavadoff8 = 1;
+}
+
+
+
+//-------------------------------------------------------------------------- 9
+
+var prelavadon9= 1;
+function prelavado9_1(){ 
+    document.getElementById("prelavadon9").style.display = "block";
+    document.getElementById("prelavadoff9").style.display = "none";
+    prelavadon9 = 1;
+}
+
+
+var prelavadoff9 = 1;
+function prelavado9_2(){ 
+    document.getElementById("prelavadoff9").style.display = "block";
+    document.getElementById("prelavadon9").style.display = "none";
+    prelavadoff9 = 1;
+}
+
+//-------------------------------------------------------------------------- 10
+
+var prelavadon10= 1;
+function prelavado10_1(){ 
+    document.getElementById("prelavadon10").style.display = "block";
+    document.getElementById("prelavadoff10").style.display = "none";
+    prelavadon10 = 1;
+}
+
+
+var prelavadoff10= 1;
+function prelavado10_2(){ 
+    document.getElementById("prelavadoff10").style.display = "block";
+    document.getElementById("prelavadon10").style.display = "none";
+    prelavadoff10 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 11
+
+var prelavadon11= 1;
+function prelavado11_1(){ 
+    document.getElementById("prelavadon11").style.display = "block";
+    document.getElementById("prelavadoff11").style.display = "none";
+    prelavadon11 = 1;
+}
+
+
+var prelavadoff11 = 1;
+function prelavado11_2(){ 
+    document.getElementById("prelavadoff11").style.display = "block";
+    document.getElementById("prelavadon11").style.display = "none";
+    prelavadoff11 = 1;
+}
+
