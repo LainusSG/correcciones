@@ -295,7 +295,7 @@
 
 .u-section-1 .u-table-1 {
   width: 831px;
-  margin: 30px calc(((100% - 1140px) / 2) + 42px) 0 auto;
+  margin: 30px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 350px);
 }
 
 .u-section-1 .u-table-entity-1 {
@@ -330,42 +330,42 @@
 .u-section-1 .u-icon-3 {
   width: 36px;
   height: 36px;
-  margin: -203px calc(((100% - 1140px) / 2) + 411px) 0 auto;
+  margin: -203px calc(((100% - 1140px) / 2) + 411px) 0 calc(((100% - 1140px) / 2) + 665px);
   padding: 0;
 }
 
 .u-section-1 .u-icon-4 {
   width: 36px;
   height: 36px;
-  margin: -36px calc(((100% - 1140px) / 2) + 520px) 0 auto;
+  margin: -36px calc(((100% - 1140px) / 2) + 520px) 0 calc(((100% - 1140px) / 2) + 760px);
   padding: 0;
 }
 
 .u-section-1 .u-icon-5 {
   width: 36px;
   height: 36px;
-  margin: 37px calc(((100% - 1140px) / 2) + 520px) 0 auto;
+  margin: 37px calc(((100% - 1140px) / 2) + 520px) 0 calc(((100% - 1140px) / 2) + 665px);
   padding: 0;
 }
 
 .u-section-1 .u-icon-6 {
   width: 36px;
   height: 36px;
-  margin: -36px calc(((100% - 1140px) / 2) + 411px) 0 auto;
+  margin: -36px calc(((100% - 1140px) / 2) + 411px) 0 calc(((100% - 1140px) / 2) + 760px);
   padding: 0;
 }
 
 .u-section-1 .u-icon-7 {
   width: 36px;
   height: 36px;
-  margin: 37px calc(((100% - 1140px) / 2) + 521px) 0 auto;
+  margin: 37px calc(((100% - 1140px) / 2) + 521px) 0 calc(((100% - 1140px) / 2) + 665px);
   padding: 0;
 }
 
 .u-section-1 .u-icon-8 {
   width: 36px;
   height: 36px;
-  margin: -36px calc(((100% - 1140px) / 2) + 411px) 0 auto;
+  margin: -36px calc(((100% - 1140px) / 2) + 411px) 0 calc(((100% - 1140px) / 2) + 760px);
   padding: 0;
 }
 
