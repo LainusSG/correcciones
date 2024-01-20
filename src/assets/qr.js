@@ -405,7 +405,7 @@ function prelavado13_1(){
     document.getElementById("prelavadon13").style.display = "block";
     document.getElementById("prelavadoff13").style.display = "none";
     document.getElementById("aparecer1_13").style.display = "block";
-    prelavadon11 = 1;
+    prelavadon13 = 1;
 }
 
 
@@ -527,7 +527,7 @@ function prelavado19_1(){
 }
 
 
-var prelavadoff9 = 1;
+var prelavadoff19 = 1;
 function prelavado19_2(){ 
     document.getElementById("prelavadoff19").style.display = "block";
     document.getElementById("prelavadon19").style.display = "none";
