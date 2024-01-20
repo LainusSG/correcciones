@@ -184,13 +184,13 @@
   .u-section-1 .u-text-7 {
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 26px 330px 0 calc(((100% - 1140px) / 2) + 681px);
+    margin: 26px 330px 0 calc(((100% - 1140px) / 2) + 581px);
   }
   
   .u-section-1 .u-icon-3 {
     width: 34px;
     height: 34px;
-    margin: -38px calc(((100% - 1140px) / 2) + 214px) 0 calc(((100% - 1140px) / 2) + 790px);
+    margin: -38px calc(((100% - 1140px) / 2) + 214px) 0 calc(((100% - 1140px) / 2) + 690px);
     padding: 0;
   }
   
@@ -199,7 +199,16 @@
     font-size: 0.875rem;
     line-height: 1;
     background-image: none;
-    margin: -32px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 850px);
+    margin: -32px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 755px);
+    padding: 8px 9px 8px 8px;
+  }
+
+  .u-section-1 .u-btn-14-2 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-image: none;
+    margin: -34px calc(((100% - 1140px) / 2) + 42px) 0 calc(((100% - 1140px) / 2) + 895px);
     padding: 8px 9px 8px 8px;
   }
   
