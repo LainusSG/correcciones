@@ -344,81 +344,81 @@ function prelavado9_2(){
 
 //-------------------------------------------------------------------------- 10
 
-var prelavadon10= 1;
-function prelavado10_1(){ 
-    document.getElementById("prelavadon10").style.display = "block";
-    document.getElementById("prelavadoff10").style.display = "none";
+var prelavadoon10= 1;
+function prelavadoo10_1(){ 
+    document.getElementById("prelavadoon10").style.display = "block";
+    document.getElementById("prelavadooff10").style.display = "none";
     document.getElementById("aparecer1_10").style.display = "block";
-    prelavadon10 = 1;
+    prelavadoon10 = 1;
 }
 
 
-var prelavadoff10= 1;
-function prelavado10_2(){ 
-    document.getElementById("prelavadoff10").style.display = "block";
-    document.getElementById("prelavadon10").style.display = "none";
+var prelavadooff10 = 1;
+function prelavadoo10_2(){ 
+    document.getElementById("prelavadooff10").style.display = "block";
+    document.getElementById("prelavadoon10").style.display = "none";
     document.getElementById("aparecer1_10").style.display = "none";
-    prelavadoff10 = 1;
+    prelavadooff10 = 1;
 }
 
 
 //-------------------------------------------------------------------------- 11
 
-var prelavadon11= 1;
-function prelavado11_1(){ 
-    document.getElementById("prelavadon11").style.display = "block";
-    document.getElementById("prelavadoff11").style.display = "none";
+var prelavadoon11= 1;
+function prelavadoo11_1(){ 
+    document.getElementById("prelavadoon11").style.display = "block";
+    document.getElementById("prelavadooff11").style.display = "none";
     document.getElementById("aparecer1_11").style.display = "block";
-    prelavadon11 = 1;
+    prelavadoon11 = 1;
 }
 
 
-var prelavadoff11 = 1;
-function prelavado11_2(){ 
-    document.getElementById("prelavadoff11").style.display = "block";
-    document.getElementById("prelavadon11").style.display = "none";
+var prelavadooff11 = 1;
+function prelavadoo11_2(){ 
+    document.getElementById("prelavadooff11").style.display = "block";
+    document.getElementById("prelavadoon11").style.display = "none";
     document.getElementById("aparecer1_11").style.display = "none";
-    prelavadoff11 = 1;
+    prelavadooff11 = 1;
 }
 
 
 //-------------------------------------------------------------------------- 12
 
-var prelavadon12= 1;
-function prelavado12_1(){ 
-    document.getElementById("prelavadon12").style.display = "block";
-    document.getElementById("prelavadoff12").style.display = "none";
+var prelavadoon12= 1;
+function prelavadoo12_1(){ 
+    document.getElementById("prelavadoon12").style.display = "block";
+    document.getElementById("prelavadooff12").style.display = "none";
     document.getElementById("aparecer1_12").style.display = "block";
-    prelavadon12 = 1;
+    prelavadoon12 = 1;
 }
 
 
 var prelavadoff12= 1;
-function prelavado10_2(){ 
-    document.getElementById("prelavadoff12").style.display = "block";
-    document.getElementById("prelavadon12").style.display = "none";
+function prelavadoo12_2(){ 
+    document.getElementById("prelavadooff12").style.display = "block";
+    document.getElementById("prelavadoon12").style.display = "none";
     document.getElementById("aparecer1_12").style.display = "none";
-    prelavadoff12 = 1;
+    prelavadooff12 = 1;
 }
 
 
 //-------------------------------------------------------------------------- 13
 
-var prelavadon13= 1;
-function prelavado13_1(){ 
-    document.getElementById("prelavadon13").style.display = "block";
-    document.getElementById("prelavadoff13").style.display = "none";
+var prelavadoon13= 1;
+function prelavadoo13_1(){ 
+    document.getElementById("prelavadoon13").style.display = "block";
+    document.getElementById("prelavadooff13").style.display = "none";
     document.getElementById("aparecer1_13").style.display = "block";
-    prelavadon13 = 1;
+    prelavadoon13 = 1;
 }
 
 
-var prelavadoff13 = 1;
-function prelavado11_2(){ 
-    document.getElementById("prelavadoff13").style.display = "block";
-    document.getElementById("prelavadon13").style.display = "none";
+var prelavadooff13 = 1;
+function prelavadoo13_2(){ 
+    document.getElementById("prelavadooff13").style.display = "block";
+    document.getElementById("prelavadoon13").style.display = "none";
     document.getElementById("aparecer1_13").style.display = "none";
-    prelavadoff13 = 1;
+    prelavadooff13 = 1;
 }
 
 
