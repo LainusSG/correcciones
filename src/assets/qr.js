@@ -377,3 +377,220 @@ function prelavado11_2(){
     prelavadoff11 = 1;
 }
 
+
+//-------------------------------------------------------------------------- 12
+
+var prelavadon12= 1;
+function prelavado12_1(){ 
+    document.getElementById("prelavadon12").style.display = "block";
+    document.getElementById("prelavadoff12").style.display = "none";
+    document.getElementById("aparecer1_12").style.display = "block";
+    prelavadon12 = 1;
+}
+
+
+var prelavadoff12= 1;
+function prelavado10_2(){ 
+    document.getElementById("prelavadoff12").style.display = "block";
+    document.getElementById("prelavadon12").style.display = "none";
+    document.getElementById("aparecer1_12").style.display = "none";
+    prelavadoff12 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 13
+
+var prelavadon13= 1;
+function prelavado13_1(){ 
+    document.getElementById("prelavadon13").style.display = "block";
+    document.getElementById("prelavadoff13").style.display = "none";
+    document.getElementById("aparecer1_13").style.display = "block";
+    prelavadon11 = 1;
+}
+
+
+var prelavadoff13 = 1;
+function prelavado11_2(){ 
+    document.getElementById("prelavadoff13").style.display = "block";
+    document.getElementById("prelavadon13").style.display = "none";
+    document.getElementById("aparecer1_13").style.display = "none";
+    prelavadoff13 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 14
+
+var prelavadon14= 1;
+function prelavado14_1(){ 
+    document.getElementById("prelavadon14").style.display = "block";
+    document.getElementById("prelavadoff14").style.display = "none";
+    document.getElementById("aparecer1_14").style.display = "block";
+    prelavadon14 = 1;
+}
+
+
+var prelavadoff14 = 1;
+function prelavado14_2(){ 
+    document.getElementById("prelavadoff14").style.display = "block";
+    document.getElementById("prelavadon14").style.display = "none";
+    document.getElementById("aparecer1_14").style.display = "none";
+    prelavadoff14 = 1;
+}
+
+//-------------------------------------------------------------------------- 15
+
+var prelavadon15= 1;
+function prelavado15_1(){ 
+    document.getElementById("prelavadon15").style.display = "block";
+    document.getElementById("prelavadoff15").style.display = "none";
+    document.getElementById("aparecer1_15").style.display = "block";
+    prelavadon15 = 1;
+}
+
+
+var prelavadoff15= 1;
+function prelavado15_2(){ 
+    document.getElementById("prelavadoff15").style.display = "block";
+    document.getElementById("prelavadon15").style.display = "none";
+    document.getElementById("aparecer1_15").style.display = "none";
+    prelavadoff15 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 16
+
+var prelavadon16= 1;
+function prelavado16_1(){ 
+    document.getElementById("prelavadon16").style.display = "block";
+    document.getElementById("prelavadoff16").style.display = "none";
+    document.getElementById("aparecer1_16").style.display = "block";
+    prelavadon16 = 1;
+}
+
+
+var prelavadoff16 = 1;
+function prelavado16_2(){ 
+    document.getElementById("prelavadoff16").style.display = "block";
+    document.getElementById("prelavadon16").style.display = "none";
+    document.getElementById("aparecer1_16").style.display = "none";
+    prelavadoff16 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 17
+
+var prelavadon17= 1;
+function prelavado17_1(){ 
+    document.getElementById("prelavadon17").style.display = "block";
+    document.getElementById("prelavadoff17").style.display = "none";
+    document.getElementById("aparecer1_17").style.display = "block";
+    prelavadon17= 1;
+}
+
+
+var prelavadoff17= 1;
+function prelavado17_2(){ 
+    document.getElementById("prelavadoff17").style.display = "block";
+    document.getElementById("prelavadon17").style.display = "none";
+    document.getElementById("aparecer1_17").style.display = "none";
+    prelavadoff17 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 18
+
+var prelavadon18= 1;
+function prelavado18_1(){ 
+    document.getElementById("prelavadon18").style.display = "block";
+    document.getElementById("prelavadoff18").style.display = "none";
+    document.getElementById("aparecer1_18").style.display = "block";
+    prelavadon18 = 1;
+}
+
+
+var prelavadoff18 = 1;
+function prelavado18_2(){ 
+    document.getElementById("prelavadoff18").style.display = "block";
+    document.getElementById("prelavadon18").style.display = "none";
+    document.getElementById("aparecer1_18").style.display = "none";
+    prelavadoff18 = 1;
+}
+
+//-------------------------------------------------------------------------- 19
+
+var prelavadon19= 1;
+function prelavado19_1(){ 
+    document.getElementById("prelavadon19").style.display = "block";
+    document.getElementById("prelavadoff19").style.display = "none";
+    document.getElementById("aparecer1_19").style.display = "block";
+    prelavadon19 = 1;
+}
+
+
+var prelavadoff9 = 1;
+function prelavado19_2(){ 
+    document.getElementById("prelavadoff19").style.display = "block";
+    document.getElementById("prelavadon19").style.display = "none";
+    document.getElementById("aparecer1_19").style.display = "none";
+    prelavadoff19 = 1;
+}
+
+//-------------------------------------------------------------------------- 20
+
+var prelavadon20= 1;
+function prelavado20_1(){ 
+    document.getElementById("prelavadon20").style.display = "block";
+    document.getElementById("prelavadoff20").style.display = "none";
+    document.getElementById("aparecer1_20").style.display = "block";
+    prelavadon20 = 1;
+}
+
+
+var prelavadoff20= 1;
+function prelavado20_2(){ 
+    document.getElementById("prelavadoff20").style.display = "block";
+    document.getElementById("prelavadon20").style.display = "none";
+    document.getElementById("aparecer1_20").style.display = "none";
+    prelavadoff20 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 21
+
+var prelavadon21= 1;
+function prelavado21_1(){ 
+    document.getElementById("prelavadon21").style.display = "block";
+    document.getElementById("prelavadoff21").style.display = "none";
+    document.getElementById("aparecer1_21").style.display = "block";
+    prelavadon21 = 1;
+}
+
+
+var prelavadoff21 = 1;
+function prelavado21_2(){ 
+    document.getElementById("prelavadoff21").style.display = "block";
+    document.getElementById("prelavadon21").style.display = "none";
+    document.getElementById("aparecer1_21").style.display = "none";
+    prelavadoff21 = 1;
+}
+
+
+//-------------------------------------------------------------------------- 22
+
+var prelavadon22= 1;
+function prelavado22_1(){ 
+    document.getElementById("prelavadon22").style.display = "block";
+    document.getElementById("prelavadoff22").style.display = "none";
+    document.getElementById("aparecer1_22").style.display = "block";
+    prelavadon22 = 1;
+}
+
+
+var prelavadoff22= 1;
+function prelavado22_2(){ 
+    document.getElementById("prelavadoff22").style.display = "block";
+    document.getElementById("prelavadon22").style.display = "none";
+    document.getElementById("aparecer1_22").style.display = "none";
+    prelavadoff22 = 1;
+}
+
